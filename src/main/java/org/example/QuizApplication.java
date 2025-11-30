@@ -12,7 +12,7 @@ public class QuizApplication extends JFrame {
 
     public QuizApplication() {
         // Reset database to ensure all questions are loaded
-        DatabaseConnection.resetDatabase();
+        // DatabaseConnection.resetDatabase();
 
         setTitle("Quiz de Culture Générale");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
